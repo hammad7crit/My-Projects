@@ -1,0 +1,131 @@
+.TojiPfp {
+    width: 200px;
+    height: auto;
+    border-radius: 150px;
+    display: block;
+    margin-left: 384px;
+    margin-top: -110px;
+}
+.NameLeft {
+    letter-spacing: -2px;
+    font-family: "Roboto Mono", monospace;
+}
+.NavigationTop {
+    display: flex;
+    gap: 63px;
+    margin-top: -50px;
+    margin-left: 650px;
+    letter-spacing: -1.5px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+}
+
+.HiToji {
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -2px;
+    font-style: italic;
+}
+.TojiHighlight {
+    color: #c92a2a;
+}
+.animatorHighlight {
+    color: #c92a2a;
+}
+.DescAni {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -40px;
+    letter-spacing: -2px;
+    font-style: italic;
+}
+body {
+    background-color: #eef2ff;
+}
+.NavigationBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    gap: 35px;
+}
+.HireButton {
+    display: inline-block;
+    padding: 25px 50px;
+    color: #000000;
+    border: 2px solid black;
+    margin-left: 300px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.HireButton:hover {
+    background-color: rgba(201, 42, 42, 0.1);
+    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+.ProjectsButton {
+
+    display: inline-block;
+    padding: 25px 50px;
+    color: #000000;
+    border: 2px solid black;
+    margin-left: 10px;
+    
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Buttons {
+    display: flex;
+}
+.ProjectsButton:hover {
+    background-color: rgba(201, 42, 42, 0.1);
+    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+.AchievmentsButton {
+    display: inline-block;
+    padding: 25px 50px;
+    color: #000000;
+    border: 2px solid black;
+    margin-left: 380px;
+    margin-top: 10px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.AchievmentsButton:hover {
+    background-color: rgba(201, 42, 42, 0.1);
+    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+.Intro {
+    font-family: "Roboto Mono",monospace;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
