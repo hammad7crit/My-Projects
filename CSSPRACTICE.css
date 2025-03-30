@@ -7,17 +7,19 @@
     margin-top: -110px;
 }
 .NameLeft {
-    letter-spacing: -2px;
-    font-family: "Roboto Mono", monospace;
+    letter-spacing: -1.5px;
+    font-family: "Playfair Display", sans-serif;
+    color: #1E3A8A;
 }
 .NavigationTop {
     display: flex;
-    gap: 63px;
+    gap: 50px;
     margin-top: -50px;
     margin-left: 650px;
     letter-spacing: -1.5px;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Playfair Display", sans-serif;
     font-size: 12px;
+    color: #1E3A8A;
 }
 
 .HiToji {
@@ -25,6 +27,7 @@
     text-align: center;
     letter-spacing: -2px;
     font-style: italic;
+    color: #1E3A8A;
 }
 .TojiHighlight {
     color: #c92a2a;
@@ -39,38 +42,40 @@
     margin-top: -40px;
     letter-spacing: -2px;
     font-style: italic;
+    color: #1E3A8A;
 }
 body {
-    background-color: #eef2ff;
+    background-color: #F8F9FA;
 }
 .NavigationBottom {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 650px;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Playfair Display", sans-serif;
     font-size: 12px;
     gap: 35px;
+    color: #1E3A8A;
 }
 .HireButton {
     display: inline-block;
     padding: 25px 50px;
-    color: #000000;
+    color: #FFFFFF;
     border: 2px solid black;
     margin-left: 300px;
     border-radius: 50px;
     transition: 0.3s ease-in-out;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Playfair Display", sans-serif;
     font-size: 25px;
     margin-top: -25px;
     font-weight: bold;
-    background-color: transparent;
+    background-color: #2C3E50;
     cursor: pointer;
     text-decoration: none;
 }
 .HireButton:hover {
-    background-color: rgba(201, 42, 42, 0.1);
-    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    background-color: #EAB308;
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     text-decoration: none;
 }
@@ -78,17 +83,16 @@ body {
 
     display: inline-block;
     padding: 25px 50px;
-    color: #000000;
+    color: #FFFFFF;
     border: 2px solid black;
     margin-left: 10px;
-    
     border-radius: 50px;
     transition: 0.3s ease-in-out;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Playfair Display", sans-serif;
     font-size: 25px;
     margin-top: -25px;
     font-weight: bold;
-    background-color: transparent;
+    background-color: #2C3E50;
     cursor: pointer;
     text-decoration: none;
 }
@@ -96,36 +100,42 @@ body {
     display: flex;
 }
 .ProjectsButton:hover {
-    background-color: rgba(201, 42, 42, 0.1);
-    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    background-color: #EAB308;
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     text-decoration: none;
 }
 .AchievmentsButton {
     display: inline-block;
     padding: 25px 50px;
-    color: #000000;
+    color: #FFFFFF;
     border: 2px solid black;
-    margin-left: 380px;
+    margin-left: 15px;
     margin-top: 10px;
     border-radius: 50px;
     transition: 0.3s ease-in-out;
-    font-family: "Roboto Mono", monospace;
-    font-size: 25px;
+    font-family: "Playfair Display", sans-serif;
     font-weight: bold;
-    background-color: transparent;
+    background-color: rgb(44, 62, 80);
     cursor: pointer;
     text-decoration: none;
 }
 .AchievmentsButton:hover {
-    background-color: rgba(201, 42, 42, 0.1);
-    box-shadow: 4px 8px 20px rgba(255, 0, 0, 0.4);
+    background-color: #EAB308;
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     text-decoration: none;
+
 }
 .Intro {
-    font-family: "Roboto Mono",monospace;
+    font-family: "Playfair Display", sans-serif;
     margin-bottom: 50px;
     font-size: 25px;
+    padding: 20px;
+    color: #333333;
 }
-
+.HireButton, .ProjectsButton, .AchievmentsButton {
+    margin: 10px;
+    font-size: 25px;
+   
+}
