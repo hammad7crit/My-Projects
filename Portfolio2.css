@@ -1,0 +1,133 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Background {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover; /* Makes sure the image covers the area properly */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.Navigation {
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.Navigation h1 {
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 4px 8px 20px rgba(0,0,0,0.4);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-family: "Playfair Display", serif;
+}
+
+.Home:hover, .About:hover, .Skills:Hover, .Education:hover {
+    display: inline-block;
+    background-color: #6EC1D4;
+    border: 2px solid white;
+    transform: scale(1.15);
+    color: #333333;
+    cursor: pointer;
+    box-shadow: 4px 10px 6px rgba(0,0,0,0.5);
+}
+.Intro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 28%;
+    color: #77603d;
+    font-family: "Montserrat", serif;
+    font-size: 35px;
+    
+   
+}
+.Intro h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.Intro h1.Profession {
+    font-weight: 200;
+}
+.Buttons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 50%;
+    gap: 30px;
+    color: #ffffff;
+    
+    
+}
+.Buttons h2 {
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 4px 8px 20px rgba(0,0,0,0.5);
+    background: transparent;
+    transition: 0.5s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.Buttons h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #00D1FF, #A78BFA);
+    transition: 0.5s ease;
+    z-index: -1;
+
+}
+
+.HireMe:hover, .Projects:hover, .Achievements:hover  {
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.15);
+    border: 2px solid rgba(255, 255, 255, 0.947);
+    background-color: #6EC1D4;
+    color: #333333;
+    cursor: pointer;
+    box-shadow: 4px 10px 6px rgba(0,0,0,0.5);
+}
+
+.HireMe:hover::before, .Projects:hover::before, .Achievements:hover::before {
+    left: 0;
+}
+
+p {
+    position: absolute;
+    text-align: center;
+    margin-top: 35%;
+    font-size: 20px;
+    color: #77603d;
+}
+
+
